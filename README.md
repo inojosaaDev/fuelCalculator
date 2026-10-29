@@ -7,20 +7,17 @@ Fiz este projeto com o auxílio do professor Roque, da Escola Nova Era Tech. Ele
 Este projeto utiliza **fundamentos do Android tradicional**:
 
 - Kotlin
-- Android SDK (minSdk 24, targetSdk 37)
+- Android
 - Activities
 - UI com XML (com ConstraintLayout)
   - TextView
   - EditText
   - Button
-- Material Components (`MaterialToolbar`)
-- Toolbar
+- Toolbar (`MaterialToolbar`)
 - Navegação entre telas com Intent
 - Passagem de dados entre telas com Bundle
 - Organização básica de layouts e telas
 - Gradle com Kotlin DSL
-
-Os dados são passados de uma tela para a próxima por meio de `Intent` (`putExtra` / `getExtra`), que guarda esses valores em um `Bundle`.
 
 ## 📱 Como funciona
 
@@ -44,28 +41,26 @@ custo total        = litros necessários × preço por litro
 - Litros necessários: 600 ÷ 12 = 50 L
 - Custo total: 50 × 5,00 = **R$ 250,00**
 
-## 📸 Screenshots
+## 📸 Prints do aplicativo
 
-> Adicione aqui capturas de tela do app (pasta `screenshots/` no repositório).
-
-| Início | Preço | Consumo | Distância | Resultado |
-|:------:|:-----:|:-------:|:---------:|:---------:|
-| ![Início](screenshots/inicio.png) | ![Preço](screenshots/preco.png) | ![Consumo](screenshots/consumo.png) | ![Distância](screenshots/distancia.png) | ![Resultado](screenshots/resultado.png) |
+![Prints do aplicativo](montagem-app.png)
 
 ## 📚 Sobre o projeto
 
-Projeto desenvolvido para praticar desenvolvimento Android com Kotlin: navegação entre Activities, passagem de dados com `Intent` e construção de layouts em XML.
+A ideia do app é resolver um problema do dia a dia: saber, antes de pegar a estrada, quanto vai custar o combustível da viagem. Por ser um projeto de aprendizado, o foco foi manter tudo simples e fácil de entender, construindo o app passo a passo.
 
 ## 🏁 Resultado final
 
-Ao concluir o **10D Challenge**, o resultado é:
+Ao concluir o **10D Challenge**, eu saio com bem mais do que um app funcionando. Este foi o meu primeiro contato real com o desenvolvimento Android, e o que eu levo dele é:
 
-- ✅ Um aplicativo Android funcional
-- ✅ Um projeto publicado no GitHub
-- ✅ Base sólida de lógica de programação
-- ✅ Primeiro contato real com desenvolvimento Android
+- ✅ Um aplicativo Android funcional, que eu construí em Kotlin
+- ✅ Aprendi a criar telas com XML e a navegar entre elas usando `Intent`
+- ✅ Entendi como passar dados de uma tela para outra
+- ✅ Pratiquei lógica de programação ao montar o cálculo do custo da viagem
+- ✅ Publiquei o meu primeiro projeto no GitHub e aprendi a documentá-lo com um README
+- ✅ Mais confiança para continuar estudando e criar projetos maiores
 
-Este projeto representa o início da minha jornada no ecossistema Android dentro da **Escola Nova Era Tech** 🚀
+Este projeto representa o início da minha jornada no ecossistema Android dentro da **Escola Nova Era Tech**, e eu quero continuar evoluindo como desenvolvedor 🚀
 
 ## 📄 Licença
 
