@@ -1,6 +1,26 @@
-# ⛽ Calculadora de Combustível
+# ⛽ 10D Challenge | Escola Nova Era Tech | Calculadora de Combustível/Fuel Calculator
 
-Aplicativo Android, desenvolvido em Kotlin, que calcula quanto você vai gastar de combustível em uma viagem a partir do preço do litro, do consumo do veículo e da distância percorrida.
+Fiz este projeto com o auxílio do professor Roque, da Escola Nova Era Tech. Ele consiste em um aplicativo Android, desenvolvido em Kotlin, que calcula quanto você vai gastar de combustível em uma viagem a partir do preço do litro, do consumo do veículo e da distância percorrida.
+
+## 🧩 Tecnologias e conceitos utilizados
+
+Este projeto utiliza **fundamentos do Android tradicional**:
+
+- Kotlin
+- Android SDK (minSdk 24, targetSdk 37)
+- Activities
+- UI com XML (com ConstraintLayout)
+  - TextView
+  - EditText
+  - Button
+- Material Components (`MaterialToolbar`)
+- Toolbar
+- Navegação entre telas com Intent
+- Passagem de dados entre telas com Bundle
+- Organização básica de layouts e telas
+- Gradle com Kotlin DSL
+
+Os dados são passados de uma tela para a próxima por meio de `Intent` (`putExtra` / `getExtra`), que guarda esses valores em um `Bundle`.
 
 ## 📱 Como funciona
 
@@ -32,52 +52,28 @@ custo total        = litros necessários × preço por litro
 |:------:|:-----:|:-------:|:---------:|:---------:|
 | ![Início](screenshots/inicio.png) | ![Preço](screenshots/preco.png) | ![Consumo](screenshots/consumo.png) | ![Distância](screenshots/distancia.png) | ![Resultado](screenshots/resultado.png) |
 
-## 🛠️ Tecnologias
-
-- [Kotlin](https://kotlinlang.org/)
-- Android SDK (minSdk 24, targetSdk 37)
-- Views em XML com ConstraintLayout
-- Material Components (`MaterialToolbar`)
-- Gradle com Kotlin DSL
-
-## 🧩 Estrutura do projeto
-
-```
-app/src/main/java/com/example/myapplication/
-├── MainActivity.kt              # Tela inicial
-├── PrecoCombustivelActivity.kt  # Entrada do preço do litro
-├── ConsumoLitroActivity.kt      # Entrada do consumo (km/l)
-├── DistanciaActivity.kt         # Entrada da distância e cálculo do custo
-└── ResultadoActivity.kt         # Exibição do resultado
-```
-
-Os dados são passados de uma tela para a próxima por meio de `Intent` (`putExtra` / `getExtra`).
-
-## ▶️ Como executar
-
-**Pré-requisitos:** [Android Studio](https://developer.android.com/studio) instalado e um emulador ou celular Android (Android 7.0 ou superior).
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/inojosaaDev/fuelCalculator.git
-
-# 2. Abra a pasta no Android Studio e aguarde o sync do Gradle
-
-# 3. Execute o app (botão Run) em um emulador ou dispositivo
-```
-
-## 🚀 Melhorias futuras
-
-- [ ] Validar campos vazios e valores inválidos
-- [ ] Aceitar consumo e distância com casas decimais
-- [ ] Formatar o resultado em reais (R$ 0,00)
-- [ ] Salvar o histórico de cálculos
-- [ ] Permitir escolher o tipo de combustível (gasolina, etanol, diesel)
-- [ ] Migrar para Jetpack Compose
-
 ## 📚 Sobre o projeto
 
 Projeto desenvolvido para praticar desenvolvimento Android com Kotlin: navegação entre Activities, passagem de dados com `Intent` e construção de layouts em XML.
+
+## 🏁 Resultado final
+
+Ao concluir o **10D Challenge**, o resultado é:
+
+- ✅ Um aplicativo Android funcional
+- ✅ Um projeto publicado no GitHub
+- ✅ Base sólida de lógica de programação
+- ✅ Primeiro contato real com desenvolvimento Android
+
+Este projeto representa o início da minha jornada no ecossistema Android dentro da **Escola Nova Era Tech** 🚀
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**. Consulte o arquivo LICENSE para mais detalhes.
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Este é um projeto de aprendizado e fico feliz em receber sugestões, correções e melhorias.
 
 ## 👤 Autor
 
