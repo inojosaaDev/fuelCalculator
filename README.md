@@ -1,6 +1,6 @@
-# ⛽ 10D Challenge | Escola Nova Era Tech | Calculadora de Combustível/Fuel Calculator
+# ⛽ Calculadora de Combustível/Fuel Calculator
 
-Fiz este projeto com o auxílio do professor Roque, da Escola Nova Era Tech. Ele consiste em um aplicativo Android, desenvolvido em Kotlin, que calcula quanto você vai gastar de combustível em uma viagem a partir do preço do litro, do consumo do veículo e da distância percorrida.
+Este foi meu primeiro aplicativo e meu primeiro contato com desenvolvimento android. Ele consiste em um aplicativo Android, desenvolvido em Kotlin, que calcula quanto você vai gastar de combustível em uma viagem a partir do preço do litro, do consumo do veículo e da distância percorrida.
 
 ## 🧩 Tecnologias e conceitos utilizados
 
@@ -50,7 +50,7 @@ A ideia do app é resolver um problema do dia a dia: saber, antes de pegar a est
 
 ## 🏁 Resultado final
 
-Ao concluir o **10D Challenge**, eu saio com bem mais do que um app funcionando. Este foi o meu primeiro contato real com o desenvolvimento Android, e o que eu levo dele é:
+Ao concluir a calculadora de combustível, eu saio com bem mais do que um app funcionando. Este foi o meu primeiro contato real com o desenvolvimento Android, e o que eu levo dele é:
 
 - ✅ Um aplicativo Android funcional, que eu construí em Kotlin
 - ✅ Aprendi a criar telas com XML e a navegar entre elas usando `Intent`
@@ -59,11 +59,7 @@ Ao concluir o **10D Challenge**, eu saio com bem mais do que um app funcionando.
 - ✅ Publiquei o meu primeiro projeto no GitHub e aprendi a documentá-lo com um README
 - ✅ Mais confiança para continuar estudando e criar projetos maiores
 
-Este projeto representa o início da minha jornada no ecossistema Android dentro da **Escola Nova Era Tech**, e eu quero continuar evoluindo como desenvolvedor 🚀
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto representa o início da minha jornada no ecossistema Android, e eu quero continuar evoluindo como desenvolvedor 🚀
 
 ## 🤝 Contribuições
 
