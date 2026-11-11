@@ -17,7 +17,6 @@ Este projeto utiliza **fundamentos do Android tradicional**:
 - Navegação entre telas com Intent
 - Passagem de dados entre telas com Bundle
 - Organização básica de layouts e telas
-- Gradle com Kotlin DSL
 
 ## 📱 Como funciona
 
